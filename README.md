@@ -25,6 +25,8 @@ Outputs:
 ## Expression
 
 Sum   = A ⊕ B ⊕ Cᵢₙ
+
+
 Cₒᵤₜ = (A · B) + (Cᵢₙ · (A ⊕ B))
 
 ---
