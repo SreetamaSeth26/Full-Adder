@@ -24,7 +24,8 @@ Outputs:
 
 ## Expression
 
-(Expression.png)
+Sum   = A ⊕ B ⊕ Cᵢₙ
+Cₒᵤₜ = (A · B) + (Cᵢₙ · (A ⊕ B))
 
 ---
 
@@ -36,7 +37,16 @@ Outputs:
 
 ## Truth Table
 
-(Truth Table.png)
+A B Cin | Sum Cout
+--------|----------
+0 0  0   |  0    0
+0 0  1   |  1    0
+0 1  0   |  1    0
+0 1  1   |  0    1
+1 0  0   |  1    0
+1 0  1   |  0    1
+1 1  0   |  0    1
+1 1  1   |  1    1
 
 ---
 
